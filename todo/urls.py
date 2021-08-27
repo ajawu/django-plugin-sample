@@ -1,5 +1,5 @@
 from django.urls import path
-from plugin_sample_app import views
+from todo import views
 
 app_name = "plugin_sample_app"
 

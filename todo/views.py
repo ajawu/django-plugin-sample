@@ -1,8 +1,8 @@
 from rest_framework.exceptions import NotFound
 from rest_framework.response import Response
 from rest_framework import status
-from plugin_sample_app.serializers import TaskSerializer
-from plugin_sample_app.models import Task
+from todo.serializers import TaskSerializer
+from todo.models import Task
 from rest_framework import generics
 
 tasks = [
