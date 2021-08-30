@@ -1,5 +1,6 @@
 *.sqlite3
 *.pyc
+.env
 __pycache__/
 .idea/
 node_modules/
